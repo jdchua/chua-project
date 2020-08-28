@@ -25,7 +25,7 @@
                     ${(ec.getUser().getUserAccount().username)!} <span class="userIcon fa fa-user"></span>
                 </a>
                 <ul class="dropdown-menu">
-                    <li><a href="/m/accountPage">Dashboard</a></li>
+                    <li><a href="#">Dashboard</a></li>
                     <li role="separator" class="divider"></li>
                     <li>
                          <a href="#" onclick="switchDarkLight();" data-toggle="tooltip" data-original-title="${ec.l10n.localize("Switch Dark/Light")}" data-placement="bottom">
