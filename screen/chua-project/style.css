@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  margin-bottom: 30px;
 }
 .margin-auto {
   margin: 0 auto;
@@ -26,9 +27,17 @@
 .notLoggedIn a {
   font-size: 18px;
 }
-.team-info {
-  margin-top: 20px;
-}
 .img-responsive {
     display: inline-block;
+    margin-bottom: 5px;
+}
+.team-roster-title {
+    margin-bottom: 45px;
+}
+.player-portrait .btn, #comment-button, #vote-button {
+    font-weight: 600;
+    font-size: 14px;
+}
+.fa-share {
+    display: none;
 }

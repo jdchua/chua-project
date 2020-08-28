@@ -20,7 +20,7 @@
       <!-- TBD -->
     </actions>
     <widgets>
-      <label type="h3" text="Players" />
+      <label type="h3" text="Team Roster" style="team-roster-title"/>
       <section-iterate name="player-portrait" list="photoList" entry="photo" condition="photoList" paginate="true">
         <actions>
           <set field="partyId" from="photo.partyId" />
