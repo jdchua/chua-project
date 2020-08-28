@@ -17,7 +17,7 @@
     </actions>
     <widgets>
         <container-row>
-            <row-col xs="1" sm="1" md="1" lg="2">
+            <row-col xs="0" sm="1" md="1" lg="2">
             </row-col>
             <!-- Team Details -->
             <row-col xs="12" sm="10" md="10" lg="8">
@@ -61,8 +61,8 @@
             </row-col>
         </container-row>
           <!-- get extra height so that the footer doesnt covers anything -->
-          <label type="h1" text=". "/>
+<!--          <label type="h1" text=". "/>-->
         </container>
-        <include-screen location="component://chua-project/screen/sub-components/actions-footer.xml"/>
+<!--        <include-screen location="component://chua-project/screen/sub-components/actions-footer.xml"/>-->
     </widgets>
 </screen>
