@@ -1,4 +1,4 @@
-<nav id="navBar" class="navbar">
+<nav id="navBar" class="navbar  navbar-fixed-top container-fluid">
   <div class="container-fluid">
     <header class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">

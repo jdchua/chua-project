@@ -52,7 +52,14 @@
           <label type="h3" text="${team ? team.organizationName : 'Team is null'}"/>
           <label type="h6" text="${teamConference ? teamConference.partyClassificationId+' conference' : 'no conference'} - ${teamDivision ? teamDivision.partyClassificationId : 'no division'}"/>
           <label type="span" text=" ${teamVotes ? teamVotes : 0} " style="glyphicon glyphicon-heart"/>
+<!--          <include-screen location="component://chua-project/screen/sub-components/vote-comment.xml" />-->
         </row-col>
+
+        <row-col xs="6" sm="6" md="6" lg="6">
+          <include-screen location="component://chua-project/screen/sub-components/vote-comment.xml" />
+        </row-col>
+
+<!--        <include-screen location="component://chua-project/screen/sub-components/actions-footer.xml"/>-->
       </container-row>
     </widgets>
 </screen>

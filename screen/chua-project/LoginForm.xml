@@ -4,7 +4,7 @@
         <actions>
             <script>ec.user.loginUser(username, password)</script>
         </actions>
-        <default-response url=".."/>
+        <default-response url="../team-details"/>
         <error-response url="."/>
     </transition>
     <transition name="createUser">

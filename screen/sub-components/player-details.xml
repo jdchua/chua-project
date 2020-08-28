@@ -24,7 +24,7 @@
         </entity-find>
     </actions>
     <widgets>
-        <container-dialog id="CreateTutorialDialog" button-text="Details">
+        <container-dialog id="CreateTutorialDialog" button-text="${photo.partyId}">
             <section>
                 <widgets>
                     <container>
